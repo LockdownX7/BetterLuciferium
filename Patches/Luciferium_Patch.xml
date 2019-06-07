@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName="LuciferiumHigh"]/comps</xpath>
+		<value>
+			<li Class="BetterLuciferium.HediffCompProperties_HealPermanentEffects">
+				<cureMinDays>30.0</cureMinDays>
+				<cureMaxDays>60.0</cureMaxDays>
+				<curableHediffs>
+					<li>Frail</li>
+					<li>BadBack</li>
+					<li>Cataract</li>
+					<li>Blindness</li>
+					<li>HearingLoss</li>
+					<li>Dementia</li>
+					<li>Alzheimers</li>
+					<li>Asthma</li>
+					<li>HeartArteryBlockage</li>
+					<li>Carcinoma</li>
+					<li>ChemicalDamageModerate</li>
+					<li>ChemicalDamageSevere</li>
+					<li>Cirrhosis</li>
+				</curableHediffs>
+			</li>
+		</value>
+	</Operation>
+	
+</Patch>

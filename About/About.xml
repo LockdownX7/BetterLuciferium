@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Better Luciferium</name>
+	<author>LockdownX7</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<url>https://github.com/LockdownX7/BetterLuciferium</url>
+	<description>Upgrades Luciferium to heal a number of permanent conditions in addition to scars.</description>
+</ModMetaData>
