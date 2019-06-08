@@ -36,5 +36,3 @@ Changes will apply once the game client is restarted, and works for existing sav
 Nothing from the base game is overriden, so Better Luciferium should be compatible with the majority of mods that change luciferium mechanics.
 
 If you're using a mod that adds new variants of luciferium, and want the new heal effect to apply to them, open /Patches/Luciferium_Patch.xml and duplicate the entire Operation element. Now, on the duplicated operation, replace defName="LuciferiumHigh" to target your mod's luciferium variant instead.
-
-Like with adding hediffs from a mod, here you must also specify the mod's namespace, like so: defName="ExampleMod.CustomLuciferiumHigh"
