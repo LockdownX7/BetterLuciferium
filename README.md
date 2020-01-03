@@ -25,7 +25,7 @@ Note that luciferium treats the symptoms, not the cause. A colonist might develo
 
 ## Customizable
 
-Want to change which health conditions luciferium can cure, or how long it takes between cures? It's a simple text edit in XML. In /Patches/Luciferium_Patch.xml, adjust <cureMinDays> and <cureMaxDays> to the desired values. You'll also find the list of hediff defNames that Better Luciferium targets in the <curableHediffs> element, add new ones or remove existing ones as you like.
+Want to change which health conditions luciferium can cure, or how long it takes between cures? It's a simple text edit in XML. In /Patches/Luciferium_Patch.xml, adjust \<cureMinDays\> and \<cureMaxDays\> to the desired values. You'll also find the list of hediff defNames that Better Luciferium targets in the \<curableHediffs\> element, add new ones or remove existing ones as you like.
 
 If adding hediffs from a mod, you need to prefix the defName with the mod's namespace, like so: \<li\>ExampleMod.SomeCripplingHediff\</li\>
 
